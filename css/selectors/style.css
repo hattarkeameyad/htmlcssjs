@@ -1,0 +1,20 @@
+h1
+{
+    background-color: yellow;
+}
+
+.html{
+    background-color: brown;
+}
+
+.html>p{
+    background-color: white;
+}
+
+#atharva{
+font-size: xx-large;
+}
+
+.react p{
+    background-color: bisque;
+}

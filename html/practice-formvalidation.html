@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="formvalidation.html" method="get">
+        <table width="100%" cellspacing="0" cellpadding="10px" border="1">
+            <!-- THis linee is for the comment first row -->
+            <tr>
+                <td>
+                    <label for="textbox">textbox</label>
+                <td><input type="text" maxlength="5" autofocus autocomplete="family-name" name="" id="textbox"
+                        placeholder="enter your name" required></td>
+                </td>
+                <td>
+                    <label for="readonly">readonly</label>
+                <td><input type="text" name="readonly" readonly value="your default value" id="readonly"></td>
+                </td>
+                <td>
+                    <label for="textarea">text area</label>
+                <td><textarea name="" id="textarea" cols="8" rows="4" disabled placeholder="Write your bio."></textarea>
+                </td>
+                </td>
+                <td>
+                    <label for="pass">password</label>
+                <td><input type="password" name="password" id="pass"></td>
+                </td>
+            </tr>
+            <!-- row 2nd -->
+            <tr>
+                <td>
+                    <label for="email">email</label>
+                <td><input type="email" id="email" placeholder="enter your mail heree"></td>
+                </td>
+                <td>
+                    <label for="number">number</label>
+                <td><input type="number" step="5" id="number" placeholder="numbers only"></td>
+                </td>
+                <td>
+                    <label for="time">time</label>
+                <td><input type="time" name="" id="time"></td>
+                </td>
+                <td>
+                    <label for="date">date</label>
+                <td><input type="date" name="" id="date"></td>
+                </td>
+            </tr>
+            <!-- row 3 -->
+            <tr>
+                <td>
+                    <label for="color">colorpicker</label>
+                <td><input type="color" value="#ff1122" id="color"></td>
+                </td>
+                <td>
+                    <label for="hidden">hidden</label>
+                <td><input type="hidden" id="hidden" name=""></td>
+                </td>
+                <td>
+                    <label for="file">file</label>
+                <td><input type="file" name="" id=""></td>
+                </td>
+                <td>
+                    <label for="url">url</label> 
+                <td><input type="url" name="pass" id="url"></td>
+                </td>
+            </tr>
+            <!-- thrid last row -->
+            <tr>
+                <td>
+                    <label for="topic">Radio buttons</label>
+                <td><input type="radio" value="physics" name="topic" id="topic">physics <input type="radio"
+                        value="chemeistry" name="topic" id="topic">chemeistry
+                </td>
+                </td>
+                <td>
+                    <label for="checkbox"> Checkbox</label>
+                <td><input type="checkbox" name="skills" value="skills" id="">html <input type="checkbox" name="skills"
+                        value="css" id="checkbox">css</td>
+                </td>
+                <td>
+                    <label for="dropdowns">dropdowns</label>
+                <td><select size="" multiple name="state" aria-placeholder="choose your state" id="">
+                        <optgroup label="othrestats" name="othergroup">
+                            <option value="mh">maharashtra</option>
+                            <option value="tn">tamilnadu</option>
+                            <option value="ka" selected>karnataka</option>
+                            <option value="tl">Telengana</option>
+                            <option value="kl" selected>Kerala</option>
+                        </optgroup>
+
+                        <option value="mh">maharashtra</option>
+                        <option value="tn">tamilnadu</option>
+                        <option value="ka">karnataka</option>
+                        <option value="tl">Telengana</option>
+                        <option value="kl">Kerala</option>
+                    </select></td>
+                </td>
+                <td>
+                    <label for="reset">reset</label>
+                <td><input type="reset" value="reset" id="reset"></td>
+                </td>
+            </tr>
+            <!-- second last row -->
+            <tr>
+                <td>
+                    <label for="dtl">date time local</label>
+                <td><input type="datetime-local" name="datetime-local" id="dtl"></td>
+                </td>
+                 <td></label>
+                <td></td>
+                </td> 
+                <!-- <td>
+                    <label for="submit">submit</label>
+                <td><input type="submit" value="submit" id="submit"></td>
+                </td>
+                <td>
+                    <label for="reset">reset</label>
+                <td><input type="reset" value="reset" id="reset"></td>
+                </td> -->
+            </tr>
+
+            <!-- last row -->  
+            <tr>
+                <td>
+                    <label for="url">url</label>
+                <td><input type="url" name="pass" id="url"></td>
+                </td>
+                <td>
+                    <label for="search">search</label>
+                <td><input type="search" name="pass" id="search"></td>
+                </td>
+                <td>
+                    <label for="submit">submit</label>
+                <td><input type="submit" value="submit" id="submit"></td>
+                </td>
+                <td>
+                    <label for="reset">reset</label>
+                <td><input type="reset" value="reset" id="reset"></td>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>

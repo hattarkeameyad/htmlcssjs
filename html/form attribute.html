@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form attribute</title>
+</head>
+
+<body>
+    <form action="">
+        <table>
+            <tr>
+
+                <td><label for="username">username</label>
+                <td><input type="text" name="username" id=""></td>
+                </td>
+                <td><label for="username">placeholder</label>
+                <td><input type="text" name="username" placeholder="this is placce holder" id=""></td>
+                </td>
+                <td><label for="username">password</label>
+                <td><input autofocus type="text" name="username" id=""></td>
+                </td>
+                <td><label for="username">username</label>
+                <td><input type="text" id="" class="" readonly value="This is randomtext" name="username" id=""></td>
+                </td>
+
+            </tr>
+            <tr>
+
+                <td><label for="ml">minimumlength</label>
+                <td><input type="text" minlength="4" name="minimumlength" id=""></td>
+                </td>
+                <td><label for="email">email</label>
+                <td><input type="email" name="email" placeholder="email" id=""></td>
+                </td>
+                <td><label for="maxlength">maxlength</label>
+                <td><input autofocus type="text" name="username" maxlength="4" id=""></td>
+                </td>
+                <td><label for="number">number</label>
+                <td><input type="number" id="" class="" min="4" max="10" step="5" name="username" id=""></td>
+                </td>
+
+            </tr>
+            <tr>
+
+                <td><label for="date">date</label>
+                <td><input type="date" name="date" min="dd" id=""></td>
+                </td>
+                <td><label for="time">time</label>
+                <td><input type="time" step="15" name="username"> </td>
+                </td>
+                <td><label for="color">color</label>
+                <td><input type="color" name="color" value="#0011000"></td>
+                </td>
+                <td><label for="username">disabled field</label>
+                <td><input type="text" id="" disabled class="" readonly value="This is randomtext" name="username"
+                        id=""></td>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td><label for="file">file</label>
+                <td><input type="file" accept=".jpg" name="file" id=""></td>
+                </td>
+                <td><label for="time">textarea</label>
+                <td><textarea name="textarea" cols="10" rows="5"> This is textarea</textarea> </td>
+                </td>
+                <td><label for="class">html ? css</label>
+                <td><input type="radio" name="class" value="html"> html <input type="radio" checked value="css"
+                        name="class"> css</td>
+                </td>
+                <td><label for="checkboxes">checkboxes </label>
+                <td>
+                    <label for="sub">subjects</label>
+                    physics<input type="checkbox" required name="sub" value="physics" id=""> 
+                    <input type="checkbox" name="sub" value="chemistry" id=""> chemistry
+                    <input type="checkbox" name="sub" value="maths" id=""> maths
+                </td>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td><label for="ac">autocomplete</label>
+                <td><input type="text" autocomplete="name" name="autocomplete" id=""></td>
+                </td>
+                <td><label for="username">placeholder</label>
+                <td><input type="text" name="username" placeholder="this is placce holder" id=""></td>
+                </td>
+                <td><label for="maxlength">maxlength</label>
+                <td><input autofocus type="text" name="username" maxlength="4" id=""></td>
+                </td>
+                <td><label for="username">disabled field</label>
+                <td><input type="text" id="" disabled class="" readonly value="This is randomtext" name="username"
+                        id=""></td>
+                </td>
+
+            </tr>
+            <tr>
+                <td><label for="submit">submit</label></td>
+                <td><input type="submit" value="submit"></td>
+            </tr>
+            <td><label for="dropdown">dropdown</label></td>
+                <td>
+                    <select size="6" name="state" id="">
+                        <option value="mh"> maharashtra</option>
+                        <option value="kl"> kerala</option>
+                        <option value="karnataka">ka</option>
+                        <option selected value="tamilnadu">tamilnadu</option>
+                        <optgroup label="otherstate">
+                            <option value="rj">rajasthan</option>
+                            <option value="gj">Gujarat</option>
+                        </optgroup>
+
+                    </select>
+
+                </td>
+            <tr>
+                
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
