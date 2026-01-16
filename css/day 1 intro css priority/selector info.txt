@@ -1,0 +1,8 @@
+
+
+
+elementselector
+a, p, , li, ul 
+
+class selector
+class="first"
