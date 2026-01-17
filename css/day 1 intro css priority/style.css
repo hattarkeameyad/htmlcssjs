@@ -1,28 +1,28 @@
-/* h1{
+h1 {
     background-color: blue;
 }
-h1{
-    background-color:orange;
-} */
 
-.js{
-
+h1 {
+    background-color: orange;
 }
+
+.js {}
+
 .html>h1 {
     background-color: bisque;
 
 }
 
-#renuka{
+#renuka {
     background-color: pink;
 }
-#atharva{
+
+#atharva {
     background-color: red;
 }
 
-.css>h1{
- 
+.css>h1 {
+
     background-color: blue;
     color: aqua;
 }
-
