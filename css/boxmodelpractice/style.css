@@ -1,0 +1,17 @@
+.freind{
+    height: 200px;
+    width: 200px;
+    background-color: olive;
+    display: inline-block;
+    margin: 20px;
+    border-radius:50%;
+}
+.container
+{
+    height: 800px;
+    padding:40px;
+    width: auto;
+    background-color: lightcoral;
+    border: 5px;
+    border-style: dashed;
+}
