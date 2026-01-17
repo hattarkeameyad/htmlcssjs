@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+.gparent{
+    width:50vw;
+    background-color: red;
+    border: 0px;
+    padding: 50px;
+    
+}
+
+.parent{
+    height: 300px;
+    width:300px;
+    background-color: aliceblue;
+    margin:50px 50px 20px 100px;
+}
+.parent2{
+    height:300px;
+    width:100px;
+    background-color: yellow;
+}
+.sibling{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    border-style: dotted;
+    display:inline-block;
+    margin: 100px;
+}
+#sibling1{
+    margin-right:-5px;
+}
+#sibling2{
+    margin: 10px 0px 14px 15px;
+    border-radius: 50%;
+    border-radius: 50% 20% 10% 5%;
+}
