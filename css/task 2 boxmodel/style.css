@@ -1,0 +1,37 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.row {
+
+    height: 100px;
+    width: 300px;
+    border-style: dotted;
+    background-color: lightcyan;
+    margin-left: 200px;
+    
+}
+
+.cell {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background-color: burlywood;
+    margin:8px;
+}
+#two{
+    background-color: pink ;
+}
+#three{
+    background-color: red ;
+}
+#five{
+    background-color: yellow ;
+}
+#nine{
+    background-color: greenyellow;
+}
+#two,#five,#eight{
+    border-radius: 20px;
+}
