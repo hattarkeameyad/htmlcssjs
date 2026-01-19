@@ -1,57 +1,77 @@
-*{
-    margin:0px;
-    padding:0px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
-body{
+:root{
+    --xyz:pink;
+}
+body {
     background-image: url('demo.jpg');
     background-size: cover;
-    font-size:30px;
-    
+    background-repeat: no-repeat;
+    font-size: 30px;
+
 }
-body>h1{
+
+body>h1 {
     color: white;
 }
-.container{
+
+.container {
     height: 200px;
     width: 900px;
 }
 
 
-#one
-{
+#one {
     background-color: yellow;
-    width:50vw;
-    height:40vh;
-    font-size:23px;
-}
-#two{
-background-color: rgb(20%, 45%, 70%);
-}
-#three{
-    background-color: rgba(12,32,55,0.3);
-}
-#four
-{
-    background-color: hsl(108,85%,10%);
-}
-#five{
-    background-color: hsla(174, 30%, 70%, 0.8);
-}
-.child{
-    height:50%;
-    width:50%
-    
-}
-#child1{
-    background-color:white ;
+    width: 50vw;
+    height: 40vh;
+    font-size: 23px;
 }
 
-#child1>h1{
+#two {
+    background-color: rgba(50, 115, 1, 0.537);
+    width:100%;
+    
+}
+
+#three {
+    background-color: rgba(12, 32, 55, 0.3);
+}
+
+#four {
+    background-color: hsl(108, 85%, 10%);
+}
+
+#five {
+    background-color: hsla(174, 30%, 70%, 0.8);
+}
+#seven{
+    background-color: #c2ff34;
+}
+
+.child {
+    height: 50%;
+    width: 50%
+}
+
+#child1 {
+    background-color: white;
+}
+
+#child1>h1 {
     font-size: 0.3em;
 }
-#child2>p{
+
+#child2>p {
     font-size: 0.8em;
 }
-#child>h2{
+
+#child>h2 {
     font-size: 0.8rem;
+}
+#six{
+
+    background-color: var(--xyz);
 }
