@@ -25,6 +25,7 @@
 }
 #three{
     background-color: red ;
+
 }
 #five{
     background-color: yellow ;
@@ -34,4 +35,9 @@
 }
 #two,#five,#eight{
     border-radius: 20px;
+}
+/*revision after review*/
+#three
+{
+    border-radius: 50%;
 }
