@@ -17,7 +17,8 @@ body {}
 
 
 }
-#c2{}
+
+#c2 {}
 
 #child1 {
     height: 100%;
@@ -41,21 +42,17 @@ body {}
     background-image: none;
     background-color: black;
     height: 350px;
-    background-image: url('mm2.jpg');
-    background-size: cover;
-    background-position: center;
     width: 100%;
 }
-.infobox{
-    height: 100%;
-    width:100%;
-    color: white;
-        padding:100px 120px;
 
+.infobox {
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 100px 120px;
     background-color: hsla(240, 36%, 9%, 0.679);
 }
 
-.infobox>p{
-margin-left: 350px;
+.infobox>p {
+    margin-left: 350px;
 }
-
