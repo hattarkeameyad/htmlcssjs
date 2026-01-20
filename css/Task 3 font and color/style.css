@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {}
+
+.container {
+    width: 100%;
+    font-size: 40px;
+}
+
+#c1 {
+    background-image: url('gtavicecity.jpg');
+    background-size: cover;
+    height: 650px;
+
+
+}
+#c2{}
+
+#child1 {
+    height: 100%;
+    width: 100%;
+    padding: 150px 150px 0px 150px;
+    background-color: rgba(30, 30, 20, 0.448);
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+#p1 {
+
+    font-size: 0.93em;
+}
+
+#mini {
+    font-size: 0.53em;
+}
+
+#c2 {
+    background-image: none;
+    background-color: black;
+    height: 350px;
+    background-image: url('mm2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.infobox{
+    height: 100%;
+    width:100%;
+    color: white;
+        padding:100px 120px;
+
+    background-color: hsla(240, 36%, 9%, 0.679);
+}
+
+.infobox>p{
+margin-left: 350px;
+}
+
