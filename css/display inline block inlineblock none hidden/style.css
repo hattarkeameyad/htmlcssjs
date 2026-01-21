@@ -1,0 +1,27 @@
+.container{
+    height:500px;
+    width:600px;
+    background-color: blanchedalmond;
+}
+
+.child{
+    display: inline-block;
+    background-color: green;
+    height: 100px;
+    width: 200px;
+    border:5px;
+    border-style: dashed;
+}
+#child1{
+   
+    display: none;
+    /* visibility: hidden; */
+}
+#child2{
+
+}
+
+#normalp{
+    background-color:red;
+    display: inline;
+}

@@ -1,0 +1,51 @@
+/* THis is parrent container */
+.html{
+    border:20px;
+    border-style: dashed;
+    border-color: yellow;
+    padding:20px;
+    margin: 20px;
+    width:auto;
+}
+/* this object is under student  */
+
+.student{
+    height: 300px;
+    width:300px;
+    margin: 5px;
+    border-radius: 10%;
+    display: inline-block;
+    background-color: aqua;
+    
+}
+#vaishnavi{
+    background-color: blue;
+}
+#prateek{
+    background-color: red;
+    text-align: center;
+}
+/* bagstarts here */
+.bag{
+    height: 200px;
+    width:200px;
+    background-color: beige;
+}
+#v_bag{
+    background-color: skyblue;
+}
+#p_bag{
+    background-color: rgb(135, 235, 142);
+}
+/* object in the bags */
+
+.object{
+    border-radius: 50%;
+    height: 50px;
+    width:50px;
+    background-color: white;
+}
+#P_b_notebook{
+    border-radius: 10%;
+    background-color: black;
+}

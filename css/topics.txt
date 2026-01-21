@@ -1,0 +1,14 @@
+colors,variable
+fonts , custom fonts, background-image & properties  -- linear gradient , radial gradient
+
+ float, display -inline,block,inline-block,none
+
+
+
+-- display -inline,block,inline-block,none
+-- display - flex - flexboxfroggy
+-- display - grid - gridgarden
+-- Pseudo classes and elements
+-- Transitions and animations
+-- position and z index
+-- media queries
