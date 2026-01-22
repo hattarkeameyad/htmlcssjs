@@ -1,0 +1,48 @@
+.outline{
+    border: 2px;
+    border-color: red;
+    border-style: dashed;
+}
+.class{
+    height:300px;
+    width:100%;
+    background-color:bisque;
+}
+
+#html{
+    background-color: pink;
+}
+.student{
+    height:150px;
+    width:100px;
+    background-color:cyan;
+    display: inline-block;
+}
+.reacts{
+    background-color: #b1e908;
+}
+.bag{
+    height: 75px;
+    width:75px;
+    background-color: burlywood;
+}
+.object{
+    border-radius:50%;
+    height: 30px;
+    width:30px;
+    background-color: white;
+}
+
+#renuka{
+    background-color: #ff7fb8;
+}
+#rb{
+    background-color:aquamarine;
+
+}
+#rbo{
+    background-color: blueviolet;
+}
+#react {
+    background-color: chocolate;
+}
