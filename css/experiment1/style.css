@@ -1,0 +1,15 @@
+.propic{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow:  -5px 5px 60px hsl(188, 58%, 48%);
+}
+img{
+    height: 100px;
+    width:100px;
+}
+body{
+    background-color: black;
+}
