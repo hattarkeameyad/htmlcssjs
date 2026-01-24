@@ -14,6 +14,7 @@
     background-color: bisque;
     border-radius: 10px;
     padding: 12px;
+    box-shadow:1px 1px 10px 1px red;
 }
 
 .child {
@@ -30,8 +31,31 @@ img {
 
 #c1 {
     margin-left: 15px;
+
 }
 
 #c2 {
+
     float: left;
+}
+
+#card1
+{
+    transform: rotate(10deg);
+
+}
+#card2
+{
+    transform: rotate(350deg);
+
+}
+#card3
+{
+    transform: rotate(10deg);
+
+}
+#card4
+{
+    transform: rotate(350deg);
+
 }
