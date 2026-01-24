@@ -1,0 +1,37 @@
+.main {
+    width: 100vw;
+    height: 1000px;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 400px;
+    height: 270px;
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.child {
+    height: 250px;
+    width: 190px;
+    display: inline-block;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#c1 {
+    margin-left: 15px;
+}
+
+#c2 {
+    float: left;
+}
