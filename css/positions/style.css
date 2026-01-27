@@ -1,0 +1,62 @@
+.maincontainer {
+    background-color: burlywood;
+    height: 35vh;
+    width: 50vw;
+    border:2px dashed yellow;
+}
+
+.child {
+    height: 75px;
+    width: 75px;
+    background-color: red;
+
+}
+
+#c1 {
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+#m2{
+    background-color: bisque;
+}
+#c2{
+    background-color: pink;
+    position:absolute;
+    
+}
+#c3{
+    position: fixed;
+    left:90vw;
+    top:85vh;
+    border-radius:50%;
+}
+#c4{
+    position: sticky;
+    top:0px;
+    left:0px;
+    background-color: aqua;
+}
+#c5{
+    position:static;
+
+}
+#m6{
+    display:flex;
+    justify-content: space-around;
+    font-size: 15px;
+    align-items: center;
+    color:red;
+}
+#m6>input{
+    height:20px;
+    width:100px;
+
+}
+#important{
+    position: relative;
+    right:245px;
+    bottom: 12px;
+
+}
