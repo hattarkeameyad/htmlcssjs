@@ -1,0 +1,12 @@
+1. Project On  
+
+    fonts , custom fonts, background-image & properties  -- linear gradient , radial gradient 
+    float, none + how css works within nested css.
+    box-shadow and display
+    -- display - flex - flexboxfroggy
+    flex practice flipkart sample product, transform rotate 
+
+    Topics:
+        Project tourism : aurangabad or any city landding page.
+        Product landing Page: product info and pictures.
+        Resort landing page

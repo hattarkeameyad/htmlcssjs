@@ -1,0 +1,32 @@
+body{
+    background-image: url("images.png");
+    background-repeat: repeat;
+}
+.container{
+
+    height: 400px;
+    width:400px;
+    display: inline-block;
+
+}
+
+#con1{
+ background-image:url("nature.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#con2{
+    height:600px;
+    width:600px;
+ background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJmR8LF39ptV7-8XwO-3fw1VV0iU0cXa46-A&s");
+    
+ background-repeat: space;
+}
+#con3{
+    background-color: white;
+    text-decoration: underline ;
+    text-align:right;
+    box-shadow: 10px 10px 5px 10px rgba(0, 0, 255, 0.337);
+}
+/* box shadow example begins */
