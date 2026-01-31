@@ -1,0 +1,21 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #f1f2b5, #135058);
+    
+}
+
+.child:hover{
+    transform: scale(1.5);
+    color: white;
+}
