@@ -1,0 +1,58 @@
+*{
+    padding:0px;
+    margin:0px;
+
+}
+:root{
+    --primary:#242e40;
+    --accent:#ebf0f5;
+}
+@font-face {
+    font-family: "ameyaember";
+    src: url('amazonember.ttf');
+}
+
+
+.container {
+    height: 06.8vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color:var(--primary);
+    font-family: 'ameyaember';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.nav
+{
+    /* border: dashed red 2px; */
+    display:flex;
+    width:30%;
+    justify-content: center;
+}
+ul{
+    display: inline-block;
+    /* border: 2px dashed yellow; */
+    width:80%;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+ a ,li {
+    list-style: none;
+    text-decoration: none;
+    color: var(--accent);
+    display: inline-block;
+    /* border: dashed 2px green; */
+    padding:5px 05px;
+}
+
+a:hover
+{
+    border: 1px solid var(--accent);
+    transform: scale(0.9);
+
+}
