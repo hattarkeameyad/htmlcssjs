@@ -2,6 +2,7 @@
     padding:0px;
     margin:0px;
 
+
 }
 :root{
     --primary:#242e40;
@@ -14,9 +15,10 @@
 
 
 .container {
-    height: 06.8vh;
-    width: 100%;
+    height: 6.8vh;
+    width: 100vw;
     position: fixed;
+    padding:5px;
     top: 0px;
     left: 0px;
     background-color:var(--primary);
@@ -25,21 +27,26 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    
 }
 .nav
 {
     /* border: dashed red 2px; */
+    align-self: center;
     display:flex;
-    width:30%;
-    justify-content: center;
+    width:auto;
+    align-items: center;
+margin-right:auto;
+    
+    
 }
 ul{
-    display: inline-block;
     /* border: 2px dashed yellow; */
-    width:80%;
     display: flex;
-    justify-content: space-evenly;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+}
+li{
+
 }
  a ,li {
     list-style: none;
@@ -47,12 +54,26 @@ ul{
     color: var(--accent);
     display: inline-block;
     /* border: dashed 2px green; */
-    padding:5px 05px;
-}
+    font-size: 16px;
 
+}
+a{
+        padding:5px 10px;
+
+}
 a:hover
 {
     border: 1px solid var(--accent);
     transform: scale(0.9);
 
+}
+.brandlogo{
+    height:100%;
+    /* border:2px dashed red; */
+    align-self: center;
+}
+#brandlogoimg{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
 }
