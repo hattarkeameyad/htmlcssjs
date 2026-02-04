@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.container{
+    height:400px;
+    width:500px;
+    border-radius: 20px;
+    background-color: hsla(60, 81%, 56%, 0.201);
+    box-shadow:1px 0px 10px 1px hsl(0, 0%, 100%) ;
+    position: fixed;
+    top:100px;
+    left:100px;
+}
+
+img{
+    height:200px;
+    width:180px;
+}
+.container:hover{
+    background-color: hsl(60, 81%, 56%);
+    transform: translate(10px, 20px);
+    box-shadow:2px 0px 12px 2px hsla(71, 100%, 80%, 0.61) ;
+    transition: ease-in-out 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
