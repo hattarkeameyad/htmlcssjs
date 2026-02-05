@@ -1,0 +1,57 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+:root{
+    --dark:#292929;
+    --light:#ffffff;
+    --light-dark:rgb(118, 118, 118);
+}
+.maincontainer {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://logincdn.msauth.net/shared/5/images/fluent_web_dark_2_bf5f23287bc9f60c9be2.svg");
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logincard{
+    height:319.6px;
+    width:300px;
+    padding: 40px;
+    font-family: 'Segoe UI';
+    background-color: var(--dark);
+    color: var(--light);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+}
+.logincard>h1{
+    font-size:24px;
+    
+}
+span{
+    font-weight: 50;
+}
+#signinsubinfo{
+    font-size: 14px;
+    
+}
+.iboxholder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.iboxholder>input:text{
+    border:2px;
+    border-color: var(--light-dark);
+    background:transparent;
+}
+.iboxholder>a{
+    display: block;
+    font-size: 10px;
+}
