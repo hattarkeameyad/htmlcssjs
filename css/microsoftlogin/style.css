@@ -46,10 +46,11 @@ span{
     flex-direction: column;
     justify-content: center;
 }
-.iboxholder>input:text{
-    border:2px;
-    border-color: var(--light-dark);
+#txtbox{
+    border: 2px;
+    outline-color: var(--light-dark);
     background:transparent;
+    width:90%;
 }
 .iboxholder>a{
     display: block;

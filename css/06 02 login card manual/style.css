@@ -1,0 +1,75 @@
+*{
+    /* border: 2px dashed red; */
+}
+.maincontainer{
+    width:100vw;
+    height:100vh;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    background-image: url('airplane2.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logincard{
+    background-color: #2D2926;
+    height: 50%;
+    width:25%;
+    color:rgb(254, 254, 255);
+    border-radius: 20px;
+    padding:40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    gap:10px;
+    
+
+}
+.logo
+{
+    display: flex;
+}
+.ibox{
+    width:70%;
+    height:22px;
+    background-color: #2D2926;
+    color:white;
+    outline-width: 1px;
+    outline-color: #b4b1afdc;
+}
+
+.btn{
+    height:30px;
+    width:70%;
+    padding:5px;
+    text-transform: uppercase;
+    background-color: white;
+}
+.btn:hover{
+    background-color: rgba(249, 232, 194, 0.97);
+}
+.btn:active{
+    transform: scale(0.9);
+    box-shadow: inset 1px 0px 6px 2px hsla(33, 100%, 70%, 0.558);
+    transition: ease-in-out 0.1s;
+}
+.lstinfo{
+    font-size: small;
+    position:relative;
+    top:35px;
+}
+.lstinfo>a{
+    color: rgb(36, 100, 248);
+    
+}
+.lstinfo>a:hover{
+    color: rgb(36, 100, 248);
+    font-size: medium;
+}
