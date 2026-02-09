@@ -1,0 +1,23 @@
+.container{
+    background-color: lightgreen;
+    width:50vw;
+    height:80vh;
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    grid-template-rows: 30% 50% 20%;
+ 
+}
+
+
+.water{
+    background-color: rgb(35, 145, 242);
+    grid-column-start:2;
+}
+.poison{
+    background-color: blueviolet;
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+    grid-row-start:1;
+    grid-row-end:3;
+    
+}
