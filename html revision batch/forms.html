@@ -11,13 +11,20 @@
 <body>
     <div class="container">
         <form action="forms.html" method="get">
-            <input type="text" name="basket" id="ibox_username" placeholder="enter your Name">
+            autofocus<input type="text" autofocus name="basket" id="ibox_username" required placeholder="enter your Name">
             <br>
-            <input type="email" name="emailid" placeholder="email" id="">
+            email
+            <input type="email" multiple name="emailid" placeholder="email" id="">
+            <br>
+            disabled <input type="text" name="disabled" disabled value="something" id="">
+            <br>
+           <input type="number" name=""  value="25" readonly id="">
             <br>
             <input type="password"  placeholder="Password" id="">
             <br>
-            <input type="number" name="Mobile Number" id="">
+            hidden <input type="text" hidden>
+            <br>
+            <input type="number" placeholder="Numbers only" name="Mobile Number" id="">
             <br>
             <input type="date" name="" id="">
             <br>
@@ -33,8 +40,26 @@
             <br>
             <input type="url" name="" id="">
             <br>
+            autocompletebox
+            <input type="text" name="address" autocomplete="bday-month" id="">
+            <br>
             <input type="search" name="" placeholder="searchbox" id="">
             <input type="submit"> <input type="reset" value="reset" name="Reset">
+
+            <br>
+            minlength and max length
+            <br>
+            <input type="text" minlength="3" maxlength="10" name="" id="">
+
+            <br>
+            number attribute
+            <input type="number" name="" min="20" step="6" max="55"  id="">
+            <br>
+            datetime
+            <input type="date" name="" max="2026-03-15" min="2026-01-12" id="">
+            <br>
+            <input type="time" name="" min="12:22" max="18:00" id="">
+
         </form>
     </div>
 </body>
