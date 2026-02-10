@@ -1,0 +1,49 @@
+
+
+
+.html{
+    height: 50px;
+    width:50px;
+    margin:10px;
+   background-color: rgb(26, 136, 232) !important;
+}
+.food
+{
+    background-color: yellow;
+
+}
+#chinese{
+    background-color: red;
+}
+
+#pratik{
+    background-color: blueviolet !important;
+}
+img{
+    height:200px;
+}
+.college{
+    height:500px;
+    width:500px;
+    background-color: lightblue;
+}
+.college>p{
+    background-color: chartreuse;
+}
+.subject{
+    height:100px;
+    width:100px;
+    background-color: antiquewhite;
+    color:black;
+}
+.book
+{
+    background-color: rgb(255, 202, 202);
+    color:black;
+}
+#maths>p{
+    background-color: burlywood;
+}
+#m_book1{
+    background-color: cyan !important;
+}
