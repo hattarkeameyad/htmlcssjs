@@ -41,6 +41,17 @@ img{
     background-color: rgb(255, 202, 202);
     color:black;
 }
+#maths{
+    height:700px;
+    width:700px;
+    border: 2px dashed red;
+
+}
+#minidiv{
+    background-color: coral;
+    width: 20em;
+    height: 20em;
+}
 #maths>p{
     background-color: burlywood;
 }
