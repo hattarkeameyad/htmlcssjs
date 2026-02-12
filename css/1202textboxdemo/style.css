@@ -1,0 +1,11 @@
+body{
+    background-color: beige;
+}
+#ibox{
+    height:22px;
+    width:200px;
+    border: none;
+    border-bottom:black 5px thick;
+    outline-width: 0px;
+
+}

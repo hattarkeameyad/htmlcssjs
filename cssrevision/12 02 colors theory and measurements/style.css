@@ -1,0 +1,58 @@
+:root{
+    ---primary-color:#0c1618;
+    --secondory-color:#9aebe7;
+
+}
+body{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIPnALXhyYxde891PPs7nYZtNqqggxja1NuQ&s");
+   background-size: cover;
+   font-size: 64px;
+}   
+.supperparent{
+    background-color: hsla(324, 100%, 92%, 0.7);
+    height: 80vh;
+    width: 80vw;
+}
+.container{
+    height: 200px;
+    width:200px;
+
+}
+
+#c1{
+    background-color: var(--secondory-color);
+}
+#c2{
+    background-color: burlywood;
+    width:5px;
+    height:5px;
+}
+#c3{
+    background-color: rgb(52, 46, 110);
+    width:50%;
+}
+.subchild{
+    width:80%;
+    height: 50%;
+    background-color: white;
+
+}
+#c4{
+    background-color: rgba(255, 78, 14, 0.338);
+}
+#c5{
+    background-color: hsl(140, 10%, 80%);
+}
+#c6{
+    background-color: hsla(0, 0%, 100%, 0.883);
+    font-size: 26px;
+}
+#c6subchild{
+    font-size: 0.5em;
+}
+#c6subchild>p{
+    font-size:1rem ;
+}
+#c7{
+    background-color:#12ff88;
+}
