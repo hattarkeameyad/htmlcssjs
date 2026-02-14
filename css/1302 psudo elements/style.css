@@ -1,0 +1,23 @@
+p::first-letter{
+    font-family: groovy;
+    font-size: xx-large;
+}
+
+#myfirstp::first-line{
+    background-color: yellow;
+}
+
+p::before{
+    content:"😂";
+}
+
+p::after{
+    content: "👌";
+}
+
+input::placeholder{
+    background-color: blue;
+}
+.container li:nth-last-child(3){
+    background-color: aquamarine;
+}

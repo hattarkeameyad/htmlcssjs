@@ -1,0 +1,84 @@
+.container {
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+p:hover {
+    font-size: xx-large;
+}
+
+input[type=text]:required {
+    outline: 1px red solid;
+    box-shadow: purple 1px 1px 20px 1px;
+}
+
+input[type=text]:optional {
+    outline: 1px red solid;
+    box-shadow: rgb(26, 225, 86) 1px 1px 20px 1px;
+}
+
+button:hover {
+
+    transform: scale(1.1);
+}
+
+button:active {
+    box-shadow: inset rgb(178, 196, 183) 1px 1px 20px 1px;
+    transform: scale(0.8);
+}
+.ibox{
+    height:22px;
+    width:250px;
+    border-radius: 20px;
+    outline: none;
+
+    border: none;
+    border-bottom: 2px solid black;
+}
+a:link{
+    color:orange;
+}
+a:visited{
+   background-color:red ;
+   font-size: xx-large;
+}
+
+input[type=text]:disabled{
+    box-shadow: black 1px 1px 10px 1px;
+}
+
+input[type=text]:read-only{
+background-color: gray;
+}
+#phoneno{
+    background-color: pink;
+}
+
+li:first-child{
+    background-color: red;
+    color: white;
+}
+p:last-child{
+    background-color: aqua;
+    color:burlywood;
+}
+p:nth-child(3){
+    background-color: cornsilk;
+}
+
+
+p:nth-last-of-type(2){
+    background-color: black;
+}
+
+div:not(.boxes){
+    background-color:yellow;
+}
+.paragraph:nth-child(1){
+    background-color: rgb(237, 196, 33);
+    font-size: large;
+}

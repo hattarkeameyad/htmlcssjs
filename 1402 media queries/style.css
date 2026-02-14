@@ -1,0 +1,75 @@
+div{
+    outline: 2px dashed red;
+}
+.container{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background-color: cadetblue;
+    flex-basis: 300px;
+    gap:20px;
+    padding:20px;
+}
+img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+.childs{
+    font-size: xx-large;
+    background-color: beige;
+    height: 300px;
+    width:300px;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.subchild{
+    font-size: 0.5em;
+}
+
+
+
+@media (max-width:768px) {
+    .container{
+        background-color: rgb(14, 255, 95);
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    .childs{
+        font-size: medium;
+        width: 80%;
+        height: 150px;
+        padding: 5px;
+        text-align: center;
+    }
+    .subchild{
+        font-size: 0.5em;
+    }
+
+}
+
+@media (max-width:480px) {
+    .container{
+        background-color: chocolate;
+        flex-direction: column;
+
+    }
+    .childs{
+        font-size: large;
+        padding: 5px;
+        text-align: center;
+    }
+    .subchild{
+        font-size: 0.5em;
+    }
+
+}
+
