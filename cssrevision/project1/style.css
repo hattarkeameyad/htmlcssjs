@@ -1,0 +1,34 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+}
+.formholder{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap:5px;
+    border-radius: 10px;
+    width: 50vw;
+    height: 50vh;
+    background-image: linear-gradient(120deg,red,orange);
+    padding: 40px;
+    box-sizing: border-box;
+}
+#c2{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images6/Anime-Boy-Wallpaper-Desktop.jpg");
+    background-size: cover;
+    background-position: top;
+    
+}
+
+.ibox{
+    width:200px;
+}
+
+#submit{
+    width:150px;
+    
+}

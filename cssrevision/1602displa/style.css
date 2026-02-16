@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    outline: 0px;
+    
+}
+.classroom{
+    height: 100vh;
+    width:100vw;
+    background-color: rgb(33, 133, 220);
+}
+.freinds{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: dashed 2px red;
+    display: inline-block;
+}
+#f1{
+    visibility: hidden;
+}
+#f2>img{
+    height: 100%;
+    width:100%;
+    object-fit:cover;
+    object-position: right;
+}
+#f3{
+    overflow-x: scroll;
+}
+#f4{
+    width:500px;
+    text-align: center;
+}
+span{
+    background-color: red;
+    display: inline-block;
+    vertical-align: bottom;
+
+    
+}
