@@ -10,7 +10,7 @@ div{
     box-sizing: border-box;
     display: flex;
     background-color: cadetblue;
-    flex-basis: 300px;
+    flex-basis: 300px;   
     gap:20px;
     padding:20px;
 }
