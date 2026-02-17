@@ -1,0 +1,27 @@
+.container{
+    height: auto;
+    width:100vw;
+    background-color: darkred;
+    position:absolute;
+    top: 0px;
+    left:0px;
+    box-sizing: border-box;
+    display:flex;
+    flex-wrap: wrap;
+    gap:5px;
+}
+
+.child{
+    background-image: linear-gradient(120deg,white,grey,black);
+    height:400px;
+    border-radius: 20px;
+    flex-basis: 24%;
+    flex-grow:1;
+}
+#c5{
+    flex-shrink: 3;
+}
+#c6{
+    flex-shrink: 1;
+ 
+}

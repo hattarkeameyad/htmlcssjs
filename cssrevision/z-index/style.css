@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.child{
+    width:100%;
+    height:100vh;
+    background-color: white;
+   
+}
+.card{
+    height: 500px;
+    width:500px;
+}
+video{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+#c1{
+    position:relative;
+    top:0px;
+    left:0px;
+    z-index: -1;
+}
+#c2{
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: xx-large;
+    color: aliceblue;
+    font-family: fantasy;
+}
