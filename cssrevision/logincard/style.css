@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.parent{
+    height: 100vh;
+    width:100vw;
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+}
+.collegeholder{
+    background-color:green;
+    flex-grow: 3;
+
+}
+.clgpic{
+    height:100%;
+    width:100%;
+    background-image: url("homeuniversity.jpg");
+    background-size: cover;
+    background-position: left;
+   
+    z-index: 0;
+}
+.clgname{
+
+
+}
+.logincard{
+    flex-grow: 1;
+}

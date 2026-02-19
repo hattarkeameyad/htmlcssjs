@@ -1,0 +1,23 @@
+.maincontainer {
+    background-color: black;
+    height: 50vw;
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    gap:10px;
+    padding:5px;
+
+}
+
+.childs {
+    flex-basis: 31%;
+    background-color: white;
+}
+img
+{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
