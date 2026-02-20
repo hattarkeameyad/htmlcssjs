@@ -48,8 +48,8 @@ let arr1=[10,20,3];
 let arr2=arr1;
 
 arr2[1]=40;
-
-console.log(arr1);
+console.log("-----------------------------------------------------");
+console.log(arr1[1]);
 
 
 
