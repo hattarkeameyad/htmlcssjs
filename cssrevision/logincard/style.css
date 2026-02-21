@@ -72,6 +72,10 @@
     justify-content: center ;
     box-sizing: border-box  ;
     gap:20px;
+    z-index:10;
+    position: relative;
+    top:0px;
+    left:0px;
 }
 .logo{
 

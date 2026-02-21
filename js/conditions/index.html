@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="calculator" style="display:flex; flex-flow:column wrap;width:300px;align-items: center;justify-content: space-around;padding:10px; outline: 1px solid gray; gap:10px;text-transform: uppercase;">
+        <input type="number" name="firstnumber" id="one">
+        <input type="number" name="secondnumber" id="two">
+        <div class="buttonset">
+            <input type="button" value="add" onclick="addition()">
+            <input type="button" value="sub" onclick="substraction()">
+            <input type="button" value="div" onclick="division()">
+            <input type="button" value="mul" onclick="multi()">
+        </div>
+        <label for="result" value="this" id="result" style="font-size: x-large;color: blue; font-weight: 800;">Answer</label>
+    </div>
+</body>
+
+</html>
