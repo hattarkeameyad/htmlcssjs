@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding:0px;
+    /* border:1px red dashed; */
+}
+nav{
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    background-color: rgb(69, 65, 65);
+    display:flex; 
+    align-items: center;
+    box-shadow: 0px 1px 10px 1px black;
+    box-sizing: border-box;
+    height:8vh;
+
+}
+/* Logo lets add */
+.logo{
+    height:80%;
+    width:10%;
+}
+.logo>img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+/* navbar ul tag */
+ul{
+    list-style: none;
+    flex-grow:1;
+    display:flex;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+
+ul li a{
+    padding: 20px 10px;
+    display:block;
+    text-decoration: none;
+    color:rgb(211, 205, 205);
+    text-transform: uppercase;
+    font-weight:600;
+    font-size:16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul li a:hover{
+    /* background-color: white;
+    color: black; */
+    /* outline: solid 1px white; */
+    transition: ease-in 30ms;
+    border-radius: 10px;
+    color:white;
+    
+    font-size:18px;
+}
