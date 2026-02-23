@@ -42,7 +42,7 @@ for (index in arr) {
 for (index in arr) {
 
     console.log("Index position of the array element:  " + index + " Has value " + arr[index]);
-
+    
 }
 
 console.log(arr[2]);
