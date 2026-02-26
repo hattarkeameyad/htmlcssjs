@@ -63,17 +63,17 @@ function calculate(a, b, operation) {
     return operation(a, b);
 }
 
-        function add1(x, y) {
-            return x + y;
-        }
+function add1(x, y) {
+    return x + y;
+}
 
-        function multiply(x, y) {
-            return x * y;
-        }
+function multiply(x, y) {
+    return x * y;
+}
 
-        let y=calculate(5, 3, add1);
-console.log("This is log "+calculate(5, 3, add1));       // 8
-console.log("This is variable  "+y);
+let y = calculate(5, 3, add1);
+console.log("This is log " + calculate(5, 3, add1));       // 8
+console.log("This is variable  " + y);
 console.log(calculate(5, 3, multiply));
 
 
@@ -82,9 +82,9 @@ console.log(calculate(5, 3, multiply));
 
 
 
-function myfun(){
+function myfun() {
 
-    let c=20;
+    let c = 20;
     console.log("This is my function ");
     return c;
 
@@ -97,19 +97,76 @@ console.log(myfun());
 //new example
 
 function outerFunction() {
-let outerVariable = "I am from outer";
+    let outerVariable = "I am from outer";
 
     function innerFunction() {
         console.log(outerVariable);
     }
 
-return innerFunction;
+    return innerFunction;
 }
 
 const res = outerFunction();
 res();
 res();
 res();
+
+
+//example 2
+function counter() {
+    let count = 0;
+
+    return function () {
+        count++;
+        return count;
+    }
+}
+
+const increment = counter();
+
+console.log("Called for the first time  " + increment()); // 1
+console.log("Called for the second time " + increment()); // 2
+
+
+//Event listener
+
+function setupButton(message) {
+    const button = document.getElementById("mybutton");
+
+    if (!button) {
+        console.log("Button not found");
+        return;
+    }
+
+    button.addEventListener("click", function () {
+        console.log(message);
+    });
+}
+
+setupButton("Button clicked!");
+
+//data privacy
+
+function createUser() {
+    let password = "12345";
+
+    return {
+        checkPassword: function (input) {
+            return input === password;
+        }
+    }
+}
+
+const user = createUser();
+
+console.log(user.checkPassword("12345")); // true
+console.log(user.checkPassword("1234f5")); // true
+
+console.log(user.password);
+console.log(user.checkPassword("12345")); // true
+
+
+
 
 
 
