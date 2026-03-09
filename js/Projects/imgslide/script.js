@@ -23,4 +23,4 @@ let previous = () => {
 nxt.addEventListener('click', next);
 prev.addEventListener('click', previous);
 
-setInterval(next,4000);
+setInterval(next, 4000);

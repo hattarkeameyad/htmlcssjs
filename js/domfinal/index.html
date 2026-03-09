@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM Manipulation Only</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+
+        .bigText {
+            font-size: 24px;
+            transform: rotate(120deg);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="title">Welcome Students</h1>
+    <p class="info">This is paragraph one.</p>
+    <p class="info ">This is paragraph two.</p>
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button onclick="manipulateDOM()">Manipulate</button>
+    <button onclick="removeclass()">removeclass</button>
+
+    <!-- Creating the new div  -->
+
+    <input type="url" name="" id="imgurl">
+    <input type="button" id="addimg" onclick="addimg()" value="add image">
+    <div class="container" id='c1'>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
