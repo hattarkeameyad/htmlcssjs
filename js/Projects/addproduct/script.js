@@ -1,9 +1,7 @@
 let btn = document.getElementById('addprod');
 let prodname, description, price,imageurl,container;
 
-
 btn.addEventListener('click', () => {
-
 
     imageurl=document.getElementById("produrl");
     prodname = document.getElementById('productname');
@@ -18,13 +16,10 @@ btn.addEventListener('click', () => {
     let pricel=document.createElement('span');
 
     //injecting product inot the dom
-
     container=document.getElementById('c1');
-
     container.appendChild(prodcard);
     prodcard.append(image,producttitle,productdesc,pricel);
     
-
 //adding the classes and id's to component
     prodcard.classList.add('prodcard');
     image.id='prodimg';
@@ -37,6 +32,4 @@ btn.addEventListener('click', () => {
     producttitle.innerText=prodname.value;
     productdesc.innerText=description.value;
     pricel.innerText=price.value;
-
-
 });
