@@ -1,0 +1,41 @@
+body{
+font-family:Arial;
+margin:40px;
+}
+
+.container{
+padding:20px;
+border:2px solid black;
+}
+
+.box{
+width:200px;
+height:120px;
+background:gray;
+margin:20px 0;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+}
+
+.active{
+background:red;
+transform: scale(1.1);
+}
+
+li{
+cursor:pointer;
+margin:5px 0;
+}
+
+.newone{
+
+    background-color:violet;
+    transform: rotate(80deg);
+}
+
+.b2p{
+    transform:translate(0px,0px);
+
+}
