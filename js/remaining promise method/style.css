@@ -1,0 +1,7 @@
+.logincard{
+    outline: 1px black solid;
+}
+label{
+    font-size: 32px;
+    color: rgb(128, 201, 20);
+}

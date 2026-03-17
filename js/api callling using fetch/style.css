@@ -1,0 +1,60 @@
+.container {
+
+    width: 100vw;
+    background-color: rgb(185, 182, 178);
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-shrink: 0;
+    gap:10px;
+    padding:10px;
+}
+
+.card {
+    width: 20%;
+    height: 500px;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 23%;
+    justify-content: space-evenly;
+    align-items: center ;
+    align-content: center;
+    padding:10px;
+    gap:2px;
+
+}
+
+.imgholder {
+    width: 80%;
+    height: 60%;
+
+}
+
+#prodimg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#title {
+    font-size: x-large;
+}
+
+#price {
+    font-size: medium;
+}
+
+.btnbuynow {
+    background-color:  #ffe51f;
+    color: #1a46b3;
+    font-size: medium;
+    width: 75%;
+    height: 23px;
+}
