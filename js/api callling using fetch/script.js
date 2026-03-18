@@ -33,11 +33,11 @@ let printingdata = (rdata) => {
         pprice.id = 'price';
         pprice.innerHTML = element.price;
         //adding the button inside the code
-        let btn=document.createElement('button');
-        btn.value="Buy Now";
+        let btn = document.createElement('button');
+        btn.value = "Buy Now";
         btn.classList.add('btnbuynow');
-        btn.innerText="Buy Now";
-        divcard.append(divimgholder, ptitle, pprice,btn);
+        btn.innerText = "Buy Now";
+        divcard.append(divimgholder, ptitle, pprice, btn);
 
     });
 

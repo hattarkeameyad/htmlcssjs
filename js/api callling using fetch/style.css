@@ -11,8 +11,8 @@
     justify-content: space-evenly;
     align-items: flex-start;
     flex-shrink: 0;
-    gap:10px;
-    padding:10px;
+    gap: 10px;
+    padding: 10px;
 }
 
 .card {
@@ -24,10 +24,10 @@
     flex-flow: column wrap;
     flex-basis: 23%;
     justify-content: space-evenly;
-    align-items: center ;
+    align-items: center;
     align-content: center;
-    padding:10px;
-    gap:2px;
+    padding: 10px;
+    gap: 2px;
 
 }
 
@@ -52,7 +52,7 @@
 }
 
 .btnbuynow {
-    background-color:  #ffe51f;
+    background-color: #ffe51f;
     color: #1a46b3;
     font-size: medium;
     width: 75%;
