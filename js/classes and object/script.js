@@ -4,6 +4,7 @@ class parentclass {
     constructor() {
         this.a = 25;
         this.b = 50;
+        console.log("constructor is running");
     }
     printingfromanotherclass() {
         console.log(this.a, this.b);
