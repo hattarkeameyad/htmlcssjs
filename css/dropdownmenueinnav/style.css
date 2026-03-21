@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    background-color: rgba(205, 40, 40, 0.855);
+    display: flex;
+
+}
+ul{
+    display:flex;
+    list-style:none;
+    margin: 0;
+    padding:0;
+}
+
+ul li a{
+    display:block;
+    padding:10px 20px;
+    text-decoration: none;
+    color:white;
+}
+
+ul li a:hover{
+    background-color: white;
+    color:red;
+}
+/* ------------dropdown cod */
+.arrow{
+    font-weight:900;
+    font-size: 10px;
+    transition: transform 0.5s ease-in;
+    margin-left:5px;
+    display:inline-block;
+    font-size: 20px;
+
+}
+.dropdown{
+
+}
+.menue{
+   flex-direction: column;
+   display:none;
+}
+
+.dropdown:hover .menue{
+    display:flex;
+    position:absolute;
+    background-color: rgb(234, 148, 83);
+}
+
+.dropdown:hover .arrow{
+
+    transform:rotate(90deg);
+
+}
